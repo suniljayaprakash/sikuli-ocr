@@ -1,0 +1,32 @@
+/**
+ * @author Sunil Jayaprakash aka Nanni Sunil
+ * 
+ * (sunil.jayaprakash@gmail.com, jinnu.wordpress.com)
+ * 
+ * Description : Sikuli is a wonderful tool for automating workflows.
+ * Sikuli now has OCR functionalities and uses tesseract in the backend.
+ * For more Info on Sikuli kindly refer to http://sikuli.org
+ * 
+ * Problem Background : Sikuli has concept of Region, Pattern, Screen and Match.
+ * However, its not possible to create a Virtual Region for an image stored 
+ * in file system. It always creates a Region using "Current Screen Co-ordinates".
+ * 
+ * I wanted to extract text from image stored in file system. It was not possible
+ * using the sikuli script. However, I wrote a Java program that uses
+ * Sikuli jars and achieve the functionality.
+ *
+ * 
+ * Discussions
+ * 
+ * https://answers.launchpad.net/sikuli/+question/188121
+ * https://answers.launchpad.net/sikuli/+question/188070
+ * 
+ * Bug Reference - https://bugs.launchpad.net/sikuli/+bug/935946
+ * 
+ * 
+ * @author Sunil Jayaprakash aka Nanni Sunil
+ * (sunil.jayaprakash@gmail.com)
+ * 
+ *  Copyright : Free for commercial and non-commercial usage. Send me a message 
+ *  if you want to use. Keep the comments intact. 
+ */
